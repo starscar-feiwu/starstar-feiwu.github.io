@@ -1,28 +1,27 @@
-# Jekyll
-_site/
-*-cache/
-.jekyll-metadata
-
-# Ruby
-.bundle/
-.byebug_history
-.ruby-gemset
-.ruby-version
-*.gem
-Gemfile.lock
-
-# Files
-.analysis
+*~
+~*
+*.diff
+*.patch
+*.bak
 .DS_Store
 *.swp
-*~
+*.swo
+*.log
+*.log.*
 
-# Folders
-/vendor
-bbin/
-bin/
-coverage
-gh-pages/
-pkg/
-test/dest
-tmp/*
+/.vscode/
+
+node_modules/
+.sass-cache/
+
+/.bundle/
+/vendor/bundle
+*.gem
+
+yarn.lock
+package-lock.json
+Gemfile.lock
+
+_site/
+.jekyll-metadata
+.jekyll-cache/
